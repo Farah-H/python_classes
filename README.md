@@ -25,6 +25,7 @@ When you are creating similar objects, the use of classes ensures that you don't
 ### Pre-Requisites 
 It is easier to complete this task when using a code editor, such as Visual Studio Code or PyCharm. You can learn how to [install VSC](https://docs.microsoft.com/en-us/visualstudio/install/install-visual-studio?view=vs-2019) or [install PyCharm](https://www.jetbrains.com/help/pycharm/quick-start-guide.html) using these hyperlinks. 
 
+### Syntax
 To create a task use the syntax:
 ```python
 class Class_name:  # note the capitalisation and colon
