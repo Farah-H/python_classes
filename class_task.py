@@ -24,33 +24,24 @@ shinny = Cat()
 garfield = Cat()
 
 # display all information with each object
-print(jack.coward)
-print(jack.cute)
+print(f'Jack\'s Attributes: coward = {jack.coward}, cute = {jack.cute}, fluffy = {jack.fluffy}')
 jack.purr(jack.cute,jack.coward, jack.fluffy)
 
-print(shinny.coward)
-print(shinny.cute)
+print(f'Shinny\'s Attributes: coward = {shinny.coward}, cute = {shinny.cute}, fluffy = {shinny.fluffy}')
 shinny.purr(shinny.cute,shinny.coward, shinny.fluffy)
 
-print(garfield.coward)
-print(garfield.cute)
+print(f'Garfield\'s Attributes: coward = {garfield.coward}, cute = {garfield.cute}, fluffy = {garfield.fluffy}')
 garfield.purr(garfield.cute,garfield.coward, jack.fluffy)
 
 # change the class variables values in each object and display
 jack.coward = True
-print(jack.coward)
-print(jack.cute)
-print(jack.fluffy)
+print(f'Jack\'s new Attributes: coward = {jack.coward}, cute = {jack.cute}, fluffy = {jack.fluffy}')
 jack.purr(jack.cute,jack.coward, jack.fluffy)
 
 shinny.fluffy = False
-print(shinny.coward)
-print(shinny.cute)
-print(shinny.fluffy)
+print(f'Shinny\'s new Attributes: coward = {shinny.coward}, cute = {shinny.cute}, fluffy = {shinny.fluffy}')
 shinny.purr(shinny.cute,shinny.coward, shinny.fluffy)
 
 garfield.cute = False
-print(garfield.coward)
-print(garfield.cute)
-print(shinny.fluffy)
+print(f'Garfield\'s new Attributes: coward = {garfield.coward}, cute = {garfield.cute}, fluffy = {garfield.fluffy}')
 garfield.purr(garfield.cute,garfield.coward, jack.fluffy)
