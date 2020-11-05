@@ -2,12 +2,18 @@
 ## OOP (Object Oriented Programming)
 ### There are 4 pillars of OOP:
 - Inheritance
+    - **eliminates redundant code**
     - Inheritance in OOP = When a class derives from another class. The child class will inherit all the public and protected properties and methods from the parent class. In addition, it can have its own properties and methods.
+
 - Encapsulation
-    -  It refers to the bundling of data with the methods that operate on that data. Encapsulation is used to hide the values or state of a structured data object inside a class, preventing unauthorized parties' direct access to them.
+    - **reduce complexity and increase reusability**
+    - It refers to the bundling of data with the methods that operate on that data. Encapsulation is used to hide the values or state of a structured data object inside a class, preventing unauthorized parties' direct access to them.
+
 - Abstraction
+    - **reduce complexity and isolate impact of changes**
     - Its main goal is to handle complexity by hiding unnecessary details from the user.
 - Polymorphism
+    - **refactor code or case statements**
     - It describes the concept that different classes can be used with the same interface. Each of these classes can provide its own implementation of the interface. [Source](https://stackify.com/oop-concept-polymorphism/#:~:text=Polymorphism%20is%20one%20of%20the,with%20different%20sets%20of%20parameters.)
 
 ### ``class`` is the main factor that is used to implement any of these pillars
