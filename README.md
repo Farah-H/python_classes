@@ -24,6 +24,7 @@ Classes provide a means of bundling data and functionality together. Creating a 
 [Source](https://docs.python.org/3/tutorial/classes.html)
 
 - Why would we use classes? 
+
 When you are creating similar objects, the use of classes ensures that you don't need to repeat yourself and define basic properties, I also means you can 'inherit' basic properties from the class. 
 
 ## How to create a `class` 
@@ -50,6 +51,7 @@ class Dog():
         else return 'WOOF' 
 ```
 To use a class, you need to create an *instance* of it using the following syntax:
+
 ```python
 filo = Dog()
 ```
@@ -61,9 +63,11 @@ filo.annoying = True
 ```
 
 And we can call the functions inside the class using the syntax:
+
 ```python
 print(filo.bark(filo.annoying)) # this would return 'WOOF WOOF WOOF WOOF' 
 ```
+
 ## Tasks
 1. Create a `Cat()` class
 2. Create 2 class level variables

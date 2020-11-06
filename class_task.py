@@ -7,6 +7,7 @@ class Cat:
     coward = False
     cute = True
     fluffy = True
+
 # one function which returns 'MEOWWWWWWW', added some details :)
     def purr(self,cute,coward,fluffy):
         if cute and fluffy:
@@ -18,7 +19,7 @@ class Cat:
         else: 
             print('Ohh that cat looks kind of grumpy. Let\'s walk away for now.')
 
-# create 3 objects 
+# create 3 objects of the class
 jack = Cat()
 shinny = Cat()
 garfield = Cat()
@@ -33,7 +34,7 @@ shinny.purr(shinny.cute,shinny.coward, shinny.fluffy)
 print(f'Garfield\'s Attributes: coward = {garfield.coward}, cute = {garfield.cute}, fluffy = {garfield.fluffy}')
 garfield.purr(garfield.cute,garfield.coward, jack.fluffy)
 
-# change the class variables values in each object and display
+# change the class variables values in each object and display the object's attributes + outcome of purr() function
 jack.coward = True
 print(f'Jack\'s new Attributes: coward = {jack.coward}, cute = {jack.cute}, fluffy = {jack.fluffy}')
 jack.purr(jack.cute,jack.coward, jack.fluffy)
